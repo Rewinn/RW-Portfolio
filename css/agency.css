@@ -11,6 +11,7 @@ body {
 
 .text-muted {
     color: #777;
+    font-family: 'Poppins', sans-serif;
 }
 
 .text-primary {
@@ -659,9 +660,10 @@ section h3.section-subheading {
     text-align: center;
 }
 
+@media (min-width: 767px) {
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    /*border: 3px solid #B3AFAF;*/
 }
 
 .team-member h4 {
@@ -914,3 +916,28 @@ body {
 .col-md-4.col-sm-6.portfolio-item {
     width: 25%;
 }
+
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: 240px;
+}
+
+
+.team-member img {
+    -webkit-box-shadow: -4px 7px 10px 6px rgba(205,207,212,0.7);
+       -moz-box-shadow: -4px 7px 10px 6px rgba(205,207,212,0.7);
+            box-shadow: -4px 7px 10px 6px rgba(205,207,212,0.7);
+}
+
+.clients h4 {
+    font-family: 'Gruppo', cursive;
+    font-size: 16px;
+}
+
+.clients .container {
+    padding-top: 100px;
+    text-align: center;
+}
+
