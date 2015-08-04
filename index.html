@@ -536,32 +536,49 @@ OWN/Harpo Studios
                 </div>
             </div>
 
-                <div id="wufoo-zc6i4a70l1ogin">
-Fill out my <a href="https://rachelwinn.wufoo.com/forms/zc6i4a70l1ogin">online form</a>.
-</div>
-<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">The easy to use <a href="http://www.wufoo.com/form-builder/">Wufoo form builder</a> helps you make forms easy, fast, and fun.</div>
-<script type="text/javascript">var zc6i4a70l1ogin;(function(d, t) {
-var s = d.createElement(t), options = {
-'userName':'rachelwinn',
-'formHash':'zc6i4a70l1ogin',
-'autoResize':true,
-'height':'497',
-'async':true,
-'host':'wufoo.com',
-'header':'show',
-'ssl':false};
-s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-s.onload = s.onreadystatechange = function() {
-var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-try { zc6i4a70l1ogin = new WufooForm();zc6i4a70l1ogin.initialize(options);zc6i4a70l1ogin.display(); } catch (e) {}};
-var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-})(document, 'script');</script>
 
 
 
+<form>
+  <input name="name" type='text' placeholder='Your name'>
+  <input name="email" type='email' placeholder='Your email'>
+  <textarea type="text" name="message"></textarea>
+  <button type='submit'>Apply</button>
+</form>
 
 
+<script>
+    var contactForm = contactSection.querySelector('form'),
+    inputName = contactForm.querySelector('[name="name"]'),
+    inputEmail = contactForm.querySelector('[name="email"]'),
+    textAreaMessage = contactForm.querySelector('[name="message"]'),
+    sendButton = contactForm.querySelector('button');
 
+    sendButton.addEventListener('click', function(event){
+      event.preventDefault(); // prevent the form to do the post.
+
+      sendButton.innerHTML = 'sending..';
+
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', '//formspree.io/rachelwinn@me.com', true);
+      xhr.setRequestHeader("Accept", "application/json")
+      xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
+
+      xhr.send(
+        "name=" + inputName.value +
+        "&email=" + inputEmail.value +
+        "&message=" + textAreaMessage.value);
+
+      xhr.onloadend = function (res) {
+        if (res.target.status === 200){
+          sendButton.innerHTML = 'Message sent!';
+        }
+        else {
+          sendButton.innerHTML = 'Error!';
+        }
+      }
+    });
+</script>
 
 
 
