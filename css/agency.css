@@ -971,7 +971,7 @@ body {
 
 @media (min-width: 767px) {
 .timeline>li .color-orange {
-    background-color: #EBA605;
+    background-color: #FF6633;
 }
 
 @media (min-width: 767px) {
@@ -981,12 +981,12 @@ body {
 
 @media (min-width: 767px) {
 .timeline>li .color-jade {
-    background-color: #6B8E23;
+    background-color: #CCFF00;
 }
 
 @media (min-width: 767px) {
 .timeline>li .color-cornflower {
-    background-color: #B8C6F2;
+    background-color: #6666FF;
 }
 
 @media (min-width: 767px) {
