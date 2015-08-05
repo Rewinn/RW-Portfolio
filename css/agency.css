@@ -949,52 +949,52 @@ body {
 
 @media (min-width: 767px) {
 .timeline>li .color-red {
-    background-color: #E92F30;
+    background-color: #B4EFFB;
 }
 
 @media (min-width: 767px) {
 .timeline>li .color-chartreuse {
-    background-color: #DFD001;
+    background-color: #9BEAFB;
 }
 
 @media (min-width: 767px) {
 .timeline>li .color-pink {
-    background-color: #E230E5;
+    background-color: #82E5FB;
 }
 
 @media (min-width: 767px) {
 .timeline>li .color-dk-blue {
-    background-color: #022C3B;
+    background-color: #50DBFB;
 }
 
 @media (min-width: 767px) {
 .timeline>li .color-aqua {
-    background-color: #25E4BC;
+    background-color: #05CCFB;
 }
 
 @media (min-width: 767px) {
 .timeline>li .color-orange {
-    background-color: #FF6633;
+    background-color: #03A4C9;
 }
 
 @media (min-width: 767px) {
 .timeline>li .color-purple {
-    background-color: #524656;
+    background-color: #017C97;
 }
 
 @media (min-width: 767px) {
 .timeline>li .color-jade {
-    background-color: #CCFF00;
+    background-color: #005465;
 }
 
 @media (min-width: 767px) {
 .timeline>li .color-cornflower {
-    background-color: #6666FF;
+    background-color: #002C33;
 }
 
 @media (min-width: 767px) {
 .timeline>li .color-tomato {
-    background-color: tomato;
+    background-color: #000000;
 }
 
 .resume {
