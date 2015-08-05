@@ -448,6 +448,14 @@ section h3.section-subheading {
 
 
 /*new*/
+
+.emmy {
+    background-color: yellow;
+    width: 130px;
+    float: right;
+    text-align: right;
+}
+
 @media (min-width: 767px)
 #portfolio .portfolio-item {
     margin: 0 0 30px;
