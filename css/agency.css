@@ -954,55 +954,55 @@ body {
     margin-top: 45px;
     font-size: 16px;
 }
-
+       
 @media (min-width: 767px) {
 .timeline>li .color-red {
-    background-color: #B4EFFB;
-}
-
-@media (min-width: 767px) {
-.timeline>li .color-chartreuse {
-    background-color: #9BEAFB;
-}
-
-@media (min-width: 767px) {
-.timeline>li .color-pink {
-    background-color: #82E5FB;
-}
-
-@media (min-width: 767px) {
-.timeline>li .color-dk-blue {
-    background-color: #50DBFB;
-}
-
-@media (min-width: 767px) {
-.timeline>li .color-aqua {
-    background-color: #05CCFB;
-}
-
-@media (min-width: 767px) {
-.timeline>li .color-orange {
-    background-color: #03A4C9;
-}
-
-@media (min-width: 767px) {
-.timeline>li .color-purple {
-    background-color: #017C97;
-}
-
-@media (min-width: 767px) {
-.timeline>li .color-jade {
-    background-color: #005465;
-}
-
-@media (min-width: 767px) {
-.timeline>li .color-cornflower {
     background-color: #002C33;
 }
 
 @media (min-width: 767px) {
+.timeline>li .color-chartreuse {
+    background-color: #00404C;
+}
+
+@media (min-width: 767px) {
+.timeline>li .color-pink {
+    background-color: #005465;
+}
+
+@media (min-width: 767px) {
+.timeline>li .color-dk-blue {
+    background-color: #00687E;
+}
+
+@media (min-width: 767px) {
+.timeline>li .color-aqua {
+    background-color: #017C97;
+}
+
+@media (min-width: 767px) {
+.timeline>li .color-orange {
+    background-color: #0290B0;
+}
+
+@media (min-width: 767px) {
+.timeline>li .color-purple {
+    background-color: #03A4C9;
+}
+ 
+@media (min-width: 767px) {
+.timeline>li .color-jade {
+    background-color: #04B8E2;
+}
+
+@media (min-width: 767px) {
+.timeline>li .color-cornflower {
+    background-color: #05CCFB;
+}
+
+@media (min-width: 767px) {
 .timeline>li .color-tomato {
-    background-color: #000000;
+    background-color: tomato;
 }
 
 .resume {
