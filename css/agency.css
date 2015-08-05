@@ -940,8 +940,11 @@ body {
     text-align: center;
 }
 
+/* I added this */
+@media (min-width: 767px) {
 .timeline-image h3 {
-    margin-top: 65px;
+    margin-top: 35px;
+    font-size: 15px;
 }
 
 @media (min-width: 767px) {
