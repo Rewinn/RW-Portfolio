@@ -316,7 +316,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 200px;
+        padding-top: 250px;
         padding-bottom: 200px;
     }
 
@@ -1031,10 +1031,16 @@ p .text-muted {
 
 
 
-/*EMAIL */
+/* EMAIL */
 .alert-danger {
     color: gray;
     background-color: transparent; 
     border-color: transparent;
 }
 
+
+
+/* PORTFOLIO FIX */
+.col-md-4 {
+    width: 25%;
+}
