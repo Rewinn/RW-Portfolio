@@ -954,6 +954,12 @@ body {
     margin-top: 45px;
     font-size: 16px;
 }
+
+@media (min-width: 768px) {
+.timeline-image h3 {
+    margin-top: 60px;
+    font-size: 20px;
+}
        
 @media (min-width: 767px) {
 .timeline>li .color-red {
