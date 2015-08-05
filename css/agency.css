@@ -1044,3 +1044,8 @@ p .text-muted {
 .col-md-4 {
     width: 25%;
 }
+
+/* IPAD NAME AT TOP FIX*/
+.navbar-brand {
+    padding: 15px 0px 0px 0px;
+}
